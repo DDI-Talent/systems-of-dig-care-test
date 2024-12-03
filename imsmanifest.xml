@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<manifest identifier="hu4LPcRGAzjrKXyXQ8yV_NImEtGJC9OX1Rm_zF_b" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Systems Thinking</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Systems Thinking</title>
+        <adlcp:datafromlms>eyJjcHYiOiIxUm1fekZfYiIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/3c4bb8de.js" />
+<file href="scormcontent/lib/rise/472f74c2.css" />
+<file href="scormcontent/lib/rise/e34bf6bb.js" />
+<file href="scormcontent/lib/rise/f9b48e9e.css" />
+<file href="scormcontent/lib/rise/872d3c55.js" />
+<file href="scormcontent/lib/rise/92e0d0dc.js" />
+<file href="scormcontent/lib/rise/daebe3b0.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/cee15070.js" />
+<file href="scormcontent/lib/mondrian/be408434.js" />
+<file href="scormcontent/lib/mondrian/08509366.js" />
+<file href="scormcontent/lib/mondrian/c16e7dd3.js" />
+<file href="scormcontent/lib/mondrian/d7134136.js" />
+<file href="scormcontent/lib/mondrian/56ed4fc1.js" />
+<file href="scormcontent/lib/mondrian/617890ed.js" />
+<file href="scormcontent/lib/mondrian/b1be0899.js" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
+<file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Black.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Italic.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Bold.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Regular.woff" />
+<file href="scormcontent/lib/fonts/Roboto-Light.woff" />
+<file href="scormcontent/lib/fonts/Inter-Medium.woff" />
+<file href="scormcontent/lib/fonts/Inter-Black.woff" />
+<file href="scormcontent/lib/fonts/Inter-Bold.woff" />
+<file href="scormcontent/lib/fonts/Inter-Regular.woff" />
+<file href="scormcontent/lib/fonts/Inter-Light.woff" />
+<file href="scormcontent/assets/6UkW7ilgp7hGLgfK-Cover_NOPROCESS_.png" />
+<file href="scormcontent/assets/Banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/E6K0bL/shadow.png" />
+<file href="scormcontent/assets/signature_NOPROCESS_.png" />
+<file href="scormcontent/assets/field.jpg" />
+<file href="scormcontent/assets/UDuHQ9/Banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/SET_NOPROCESS_.png" />
+<file href="scormcontent/assets/5ML8gI/shadow2_NOPROCESS_.png" />
+<file href="scormcontent/assets/the-promise-logo-2021.png" />
+<file href="scormcontent/assets/shadow3_NOPROCESS_.png" />
+<file href="scormcontent/assets/RZsRDu/quote_background.jpg" />
+<file href="scormcontent/assets/Reflection_NOPROCESS_.png" />
+<file href="scormcontent/assets/vSms9y/Banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/group-of-healthcare-workers-seated-at-a-table-discussing-a-strategy.jpg" />
+<file href="scormcontent/assets/centre-for-ageing-better-gT6u3vEVSUg-unsplash.jpg" />
+<file href="scormcontent/assets/fsPYAX/Banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" />
+<file href="scormcontent/assets/christina-wocintechchat-com-MTvPWhQKZK4-unsplash.jpg" />
+<file href="scormcontent/assets/sajad-nori-21mJd5NUGZU-unsplash.jpg" />
+<file href="scormcontent/assets/kevin-grieve-9WERWU-_b2M-unsplash.jpg" />
+<file href="scormcontent/assets/Cause%20and%20effect_NOPROCESS_.png" />
+<file href="scormcontent/assets/Bringing%20in%20other%20perspectives_NOPROCESS_.png" />
+<file href="scormcontent/assets/Thinking%20in%20systems_NOPROCESS_.png" />
+<file href="scormcontent/assets/Stepping%20back%20further_NOPROCESS_-02.png" />
+<file href="scormcontent/assets/yThoYu/Banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/kbRmVA/Reflection_NOPROCESS_.png" />
+<file href="scormcontent/assets/cXfXvM/banner_NOPROCESS_.png" />
+<file href="scormcontent/assets/checkmark_NOPROCESS_.png" />
+<file href="scormcontent/assets/JXtk5f/signature_NOPROCESS_.png" />
+
+      <file href="scormcontent/locales/und.js" />
+
+    </resource>
+  </resources>
+</manifest>
