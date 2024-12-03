@@ -1,0 +1,38 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Deploy to GitHub Pages
+      run: |
+
+        git config user.name "${{ github.actor }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+        # Switch to the gh-pages branch or create it
+        git fetch origin main || true
+        git branch -d gh-pages || true
+        git switch gh-pages || git switch --create gh-pages
+
+        # rename scormcontent to docs (githug changes needs things int hat folder)
+        find . -mindepth 1 -not \( -path './scormcontent/*' -or  -path './scormcontent' -or -path './.git/*' -or -path './.github/*' -or  -path './.github' -or -path './.git' \) -exec rm -rf {} +
+        mkdir docs 
+        cp -r ./scormcontent/* ./ || echo "Folder scormcontent not found in main"
+        rm -rf ./scormcontent
+
+        # Commit and push changes
+        git add .
+        git commit -m "Deploy to GitHub Pages" || echo "No changes to commit"
+        git push --force "https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+
+
